@@ -15,7 +15,15 @@ immediately, I did a nmap scan on it and it returns
 80/tcp open  http    syn-ack ttl 63 Apache httpd 2.4.7
 ```
 
-so I went to take a look at the webpage which is at port 80. And it was a login page. so tried to poke around and gather information on the web application. 
+so I went to take a look at the webpage which is at port 80. And I was greeted with a directory access.
+
+![alt text](./res/first-greeting.png "First greeting")
+
+And I followed the folder and it was a login page filled with information.
+
+![alt text](./res/loginpage.png "Information-filled login page")
+
+so tried to poke around and gather information on the web application. 
 
 And I discovered this page.
 
