@@ -22,6 +22,8 @@ And I discovered this page.
 ```
 http://172.16.8.88/webcalendar/UPGRADING.html
 ```
+![alt text](./res/versionno.png "Version Number")
+
  which showed me the version number of the web application which ```k5n Webcalendar 1.2.4``` whose exploit can be found on the Internet easily at ```https://www.exploit-db.com/exploits/18775/```
  
  After running the exploit, you will be given a restricted shell and you are ```www-data```. So now what you want to do is to escalate your privileges, so I went around poking.
